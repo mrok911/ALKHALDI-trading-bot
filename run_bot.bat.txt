@@ -1,0 +1,10 @@
+@echo off
+cd /d "D:\PYTHON TELEGRAM\TELE BOT"
+
+:: 🚀 تنظيف الملفات المؤقتة
+powershell -ExecutionPolicy Bypass -File "cleanup.ps1"
+
+:: ▶️ تشغيل البوت
+python app.py
+
+pause
